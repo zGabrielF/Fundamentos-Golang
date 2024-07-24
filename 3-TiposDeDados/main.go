@@ -30,7 +30,7 @@ func main() {
 	fmt.Println(erro)
 
 	// tipo de dados erro, retornando uma mensagem de erro
-	var erro2 error = errors.New("Erro, Gustavo é Gay")
+	var erro2 error = errors.New("Erro")
 	fmt.Println(erro2)
 
 	var numero int16 = 100
