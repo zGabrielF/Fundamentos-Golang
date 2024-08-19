@@ -9,8 +9,7 @@ import (
 )
 
 func main() {
-	// urlConexao := "usuario:senha@/banco" estrutura basica
-
+	
 	urlConexao := "biel2:golang@/devbook?charset=utf8&parseTime=true"
 	db, erro := sql.Open("mysql", urlConexao)
 
